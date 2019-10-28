@@ -1,0 +1,170 @@
+.header{
+    margin-bottom: 80px;
+    background:
+        linear-gradient(
+          rgba(0, 0, 0, 0.7), 
+          rgba(0, 0, 0, 0.7)
+        ),
+        url(./img/photo.jpg);
+    }
+
+.site-link_svg{
+    width: 24px;
+    height: 24px;
+    fill: white;
+} 
+
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    width: 1172px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 287px;
+}
+.site-nav_logo{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    padding-left: 0px;
+}
+.site-nav_logo li:nth-child(2){
+    margin-top: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 34px;
+}
+.site-nav_main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+    margin-left: 220px;
+    width: 638px;
+    justify-content: space-between;
+    padding-left: 0px;
+}
+.site-nav_main li{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+.site-nav_main li a:hover{
+    color: #c7b299;
+}
+.site-nav_ico{
+    display: flex;
+    flex-direction: row;
+    margin-top: 55px;
+    margin-left: 62px;
+    width: 72px;
+    justify-content: space-between;
+    padding-left: 0px;
+}
+a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+.site-link{
+    list-style: none;
+}
+.site-link logo{
+    color: white;
+}
+.main-subtitle{
+    margin-bottom: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    color: white;
+    text-align: center;
+}
+.main-title{
+    margin-bottom: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 52px;
+    color: white;
+    text-align: center;
+}
+.main-text{
+    width: 568px;
+    margin-bottom: 52px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.btn-wrapper{
+    padding-bottom: 382px;
+    text-align: center;
+}
+.button{
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+    padding: 21px 38px 18px 38px;
+    background-color: #998675;
+    cursor: pointer;
+    border-radius: 5px;
+    border-bottom: 3px solid #736357;
+}
+.button:hover{
+    background-color: #736357;
+}
+.button:active{
+    background-color: #998675;
+    border-bottom: 3px solid #736357;
+}
+.main-content{
+    width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.content-img{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.content-subtitle{
+    margin-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    color: #555555;
+    text-align: center;
+}
+.content-text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #8c8c8c;
+    text-align: center;
+}
+.content-text::after{
+    content: " ";
+    clear: both;
+    display: block;
+    background-color: #f1eee9;
+    height: 3px;
+    width: 70px;
+    margin: 37px auto 0;
+}
+.content-text:hover::after{
+    background-color:#c7b299;
+}
+.content{
+    cursor: pointer;
+}
+.content:hover .content-subtitle{
+    color: #c7b299;
+}
+.content:hover .content-text::after{
+    background-color:#c7b299;
+}
